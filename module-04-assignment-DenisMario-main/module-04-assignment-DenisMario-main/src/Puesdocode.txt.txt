@@ -1,0 +1,28 @@
+John wants a program that will continually prompt the user to enter a name until they enter the word “stop” exactly (case insensitive). If the name contains any numbers, it will discard the name and ask again. 
+If the name contains the word “stop” but also other characters, it should be treated as a name. 
+Once the user enters the word stop, the program will output the number of names that have been entered. 
+
+Start:
+
+set the variable "count" to 0
+
+Repeat loop:
+            -Make user enter a valid name (no numbers)
+            -set name to user input
+
+If name is "stop" (case insensitive) 
+    Output count
+    Stop program
+
+If name contains numbers
+    Output "Error, name cannot contain numbers."
+
+Else if name contains "stop"
+    Increase count by 1
+
+Else
+    Output "Name entered: " + name
+
+Stop Loop
+
+End
